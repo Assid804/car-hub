@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Car Hub</title>
+    <link rel="icon" href="images/car14.jpg" type="images/x-icon" >
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/index.js"></script>
+</head>
+<body style="background-color: #eee;">
+    <!-- NAVBAR -->
+    <nav class="container-div navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CAR-HUB</a>
+        </div>
+
+        <div class="container-fluid">
+            <!-- Links -->
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            </ul>
+        </div>
+
+        <form class="search-div light">
+            <input class="search-input me-2" type="text" placeholder="Search">
+            <span>
+                <img src="images/search.svg" alt="">
+            </span>
+        </form>
+
+        <div class="notification">
+            <img src="images/bell.svg" alt="Notification Logo" style="width:30px;">
+        </div>
+
+        <div class="dropdown dropstart">
+            <a class="navbar-brand" data-bs-toggle="dropdown" href="#">
+                <img src="images/car14.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="profile/html">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Inbox</a></li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li><a class="dropdown-item" href="signup.html">Signup</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+
+
+    <!-- MAIN CONTENT -->
+    <div class="main container-div light">
+    <!-- LEFT SIDE -->
+        <aside class="left-menu">
+            <div class="menu-links">
+                <a href="index.html" class="a-link active-link">
+                <img src="images/home.svg" alt="home">
+                <span class="">Home</span>
+            </a>
+
+            <a href="explore.html" class="a-link active-link">
+                <img src="images/compass.svg" alt="Explore">
+                <span class="">Explore</span>
+            </a>
+
+            <a href="#" class="a-link">
+                <img src="images/activity.svg" alt="Explore">
+                <span class="">Categories</span>
+            </a>
+
+            <a href="#" class="a-link">
+                <img src="images/heart.svg" alt="Favourite">
+                <span class="">Favourite</span>
+            </a>
+
+            <a href="customers.html" class="a-link">
+                <img src="images/users.svg" alt="user">
+                <span class="">Users</span>
+            </a>
+            
+            <a href="#" class="a-link" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                <img src="images/settings.svg" alt="Settings">
+                <span class="">Settings</span>
+            </a>
+            </div>
+            
+        </aside>
+        <!-- LEFT SIDE -->
+
+        <!-- RIGHT SIDE -->
+        <section class="content light">
+                <div class="hero mt-0 p-3 bg-light text-dark rounded"> 
+                    <div class="hero-text">   
+                        <h1>Car Hub</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex sequi earum dicta itaque in eveniet ab voluptate dolorum unde voluptas consequuntur sit cupiditate alias nihil iste hic pariatur sapiente facere nobis ducimus sunt, repellendus aperiam quo natus? Corporis, minima debitis sit porro voluptatem harum voluptas, impedit voluptates atque adipisci rem.</p>
+                    </div> 
+    
+                    <div class="bg-hero">
+                        <img src="images/hero-bg.png" alt="" width="500">
+                        <img src="images/hero.png" alt="" width="400" class="bg-hero-img">
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h2>CATEGORY OF CARS</h2> 
+             </div>
+            <div>
+                <div class="df">
+                    <img id="img_1" src="images/car1.jpg" alt="">
+                    <b>Coupe</b>
+                    What Is a Coupe and Its Features? A coupe is defined as a closed roof, 2-door passenger car with a three-box body for the engine and the passenger compartment. Most importantly, a coupe is a vehicle with interior space that is under 33 cubic feet.
+                </div>
+                
+              
+
+                <div class="df">
+                    <img id="img_1" src="images/car8.jpg" alt="">
+                    <b>sedan</b>
+                    A sedan is defined as a 4-door passenger car with a trunk that is separate from the passengers with a three-box body
+                </div>
+                
+
+                <div class="df">
+                    <img id="img_1" src="images/car4.jpg" alt="">
+                    <b>SUV</b>
+                    SUV stands for 'Sports Utility Vehicle', a fairly loose term but one that generally refers to stylish, sleek looking vehicles that offer elegant city driving but also handle rugged terrain thanks to a typical 4x4 capability.
+                </div>
+
+                <div class="df">
+                    <img id="img_1" src="images/car2.jpg" alt="">
+                    <b>sport car</b>
+                    A sports car is a type of car that is designed with an emphasis on dynamic performance, such as handling, acceleration, top speed, the thrill of driving, and racing capability
+                </div>
+            </div>
+        </section>
+        <!-- RIGHT SIDE -->
+    </div>
+    
+    <!-- MAIN CONTENT -->
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    <!-- Offcanvas Sidebar -->
+    <div class="offcanvas offcanvas-end" id="demo">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title">Settings</h1>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Some text lorem ipsum.</p>
+            <p>Some text lorem ipsum.</p>
+            <button class="btn btn-secondary" type="button">A Button</button>
+        </div>
+    </div>
+
+</body>
+</html>
